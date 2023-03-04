@@ -1,0 +1,40 @@
+header{
+    width: 100vw;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4em;
+    color: #666666;
+    background-color: #fff;
+    border-bottom: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: #666666;
+}
+
+a:hover{
+    color:#000;
+}
+
+.input_search{
+    border: none;
+    background-color: #666666;
+    padding: 0.8em;
+    border-radius: 0.8em;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    padding: 0.8em;
+
+}
