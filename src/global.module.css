@@ -1,5 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: AudiType, sans-serif;
+    font-family: Auditype, serif;
 }
+
+@font-face {
+    font-family: 'Auditype';
+    src: local('Auditype'), url(./fonts/Auditype/AudiType-Normal_4.03.ttf) format('truetype');
+  }

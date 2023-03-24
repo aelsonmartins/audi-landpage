@@ -1,15 +1,14 @@
 header{
-    width: 100vw;
+    width: 100%;
 }
 
 nav{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 0.4em;
+    padding: 0.4em 2em;
     color: #666666;
     background-color: #fff;
-    border-bottom: 1px solid black;
+    justify-content: space-between;
 }
 
 a{
@@ -21,20 +20,35 @@ a:hover{
     color:#000;
 }
 
+.icon_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    position: relative;
+    left: 2em;
+}
+
 .input_search{
     border: none;
-    background-color: #666666;
-    padding: 0.8em;
+    background-color: rgba(179,179,179,0.5);
+    padding: 0.8em 0.8em 0.8em 2.8em;
     border-radius: 0.8em;
+}
+
+.input_search:focus{
+    outline: none;
 }
 
 ul{
     display: flex;
     align-items: center;
+    gap: 1em;
 }
 
 li{
     list-style-type: none;
     padding: 0.8em;
-
 }
