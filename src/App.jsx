@@ -6,11 +6,15 @@ export default function App() {
       <span></span>
       <div className={styles.shaderTopBlack}></div>
       <div className={styles.img_fixed}></div>
-
-      {/* <section>
+      <section>
         <h1 className={styles.title}>Modelos Disponíveis</h1>
         <div className={styles.slider}>
-          <img id="slider_1" src="../src/img/audi_a3.png" alt="img_carousel" />
+          <img
+            id="slider_1"
+            src="../src/img/audi_a3.png"
+            alt="img_carousel"
+            title="Audi A3"
+          />
 
           <img id="slider_2" src="../src/img/audi_a4.png" alt="img_carousel" />
 
@@ -30,7 +34,7 @@ export default function App() {
             alt="img_carousel"
           />
         </div>
-      </section> */}
+      </section>
       <br />
       <br />
       <br />
